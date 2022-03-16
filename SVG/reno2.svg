@@ -1,0 +1,79 @@
+<div class="container-fluid team_div_2">
+        <div class="container team_con_2">
+
+            <div class="row team_row">
+                <div class="col col-lg-3 team_intro">
+                    <div class="vativ_l_1">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.36 683.11">
+                            <defs>
+                                <style>
+                                    .reno_1 {
+                                        fill: none;
+                                        stroke: #000059;
+                                        stroke-miterlimit: 10;
+                                    }
+                                </style>
+                            </defs>
+                            <g id="Layer_2" data-name="Layer 2">
+                                <g id="Layer_1-2" data-name="Layer 1">
+                                    <path class="reno_1"
+                                        d="M115.86,545.79v38.45L72.27,630.75v25.48h43.59v26.38H.5V583.8q0-25.93,22.36-25.94H49.91q16.77,0,20.79,13.42,1.58,5.15,1.57,27.72Zm-72.43,38H29.56c-3.87,0-6.4,1.11-7.6,3.35q-1.56,2.46-1.56,8.72v60.36H52.59V595.87q0-6.25-1.56-8.72C49.84,584.91,47.3,583.8,43.43,583.8Z" />
+                                    <path class="reno_1"
+                                        d="M115.86,384.15V503.31H.5v-118H20.17v91.21H45.89V423.27H65.56v53.21H94.18V384.15Z" />
+                                    <path class="reno_1"
+                                        d="M115.86,199v18.33L44.54,302.1a82.35,82.35,0,0,1-9.39,9.61q11.19-1.11,17.67-1.12h63v24.15H.5V316.41l68-81.16A124.16,124.16,0,0,1,81,222.06q-16.11,1.13-19.9,1.12H.5V199Z" />
+                                    <path class="reno_1"
+                                        d="M88.59.5q16.09,0,21.68,6.15t5.59,22.47v85q0,16.32-5.59,22.46t-21.68,6.15H27.78q-16.11,0-21.69-6.15T.5,114.08v-85Q.5,12.8,6.09,6.65T27.78.5Zm5.59,26.83H21.07v88.53H94.18Z" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col col-lg-6 team_intro">
+                    <div class="row team_des">
+                        <img src="img/team_img_3.png" alt="">
+                        <h2>CARPENTER HELPER</h2>
+                    </div>
+                    <div class="row team_des">
+                        <img src="img/team_img_4.png" alt="">
+                        <h2><span>CARPENTER HELPER</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="col col-lg-3 team_intro">
+                    <div class="vativ_l_1">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.36 676.91">
+                            <defs>
+                                <style>
+                                    .vativ_1 {
+                                        fill: none;
+                                        stroke: #000059;
+                                        stroke-miterlimit: 10;
+                                    }
+                                </style>
+                            </defs>
+                            <g id="Layer_2" data-name="Layer 2">
+                                <g id="Layer_1-2" data-name="Layer 1">
+                                    <path class="vativ_1"
+                                        d="M115.86,149.54.5,86.05V67.49L115.86.87V31.5L32.47,78.22l83.39,44.49Z" />
+                                    <path class="vativ_1"
+                                        d="M.5,307.84V277.65l25.26-13.86V190.68L.5,177.27V150.44l115.36,65.28v25.94Zm46.06-55.23,47-24.81L46.56,202.09Z" />
+                                    <path class="vativ_1" d="M95.3,436.39V383.18H.5V356.35H95.3v-53h20.56v133Z" />
+                                    <path class="vativ_1" d="M.5,496.09V469.26H115.86v26.83Z" />
+                                    <path class="vativ_1"
+                                        d="M115.86,676.06.5,612.57V594l115.36-66.63V558L32.47,604.74l83.39,44.49Z" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <div class="row">
+                <div class="col col-lg-12 team_intro">
+                 
+                </div> -->
+
+        </div>
+    </div>

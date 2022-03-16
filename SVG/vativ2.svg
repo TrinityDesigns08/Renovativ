@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.36 676.91">
+    <defs>
+        <style>
+            .vativ_1 {
+                fill: none;
+                stroke: #000059;
+                stroke-miterlimit: 10;
+            }
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <path class="vativ_1" d="M115.86,149.54.5,86.05V67.49L115.86.87V31.5L32.47,78.22l83.39,44.49Z" />
+            <path class="vativ_1"
+                d="M.5,307.84V277.65l25.26-13.86V190.68L.5,177.27V150.44l115.36,65.28v25.94Zm46.06-55.23,47-24.81L46.56,202.09Z" />
+            <path class="vativ_1" d="M95.3,436.39V383.18H.5V356.35H95.3v-53h20.56v133Z" />
+            <path class="vativ_1" d="M.5,496.09V469.26H115.86v26.83Z" />
+            <path class="vativ_1" d="M115.86,676.06.5,612.57V594l115.36-66.63V558L32.47,604.74l83.39,44.49Z" />
+        </g>
+    </g>
+</svg>

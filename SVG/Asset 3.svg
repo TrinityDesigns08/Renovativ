@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61.43 61.42">
+    <defs>
+        <style>
+            .svg_n {
+                fill: #1d1a55;
+            }
+
+            .svg_w {
+                fill: #fff;
+            }
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <path class="svg_n" d="M61.43,30.71A30.72,30.72,0,1,1,30.71,0,30.71,30.71,0,0,1,61.43,30.71" />
+            <rect class="svg_w" x="28.53" y="27.74" width="1.67" height="1.67" />
+            <rect class="svg_w" x="30.64" y="27.74" width="1.67" height="1.67" />
+            <rect class="svg_w" x="28.53" y="29.87" width="1.67" height="1.67" />
+            <rect class="svg_w" x="30.64" y="29.87" width="1.67" height="1.67" />
+            <polygon class="svg_w"
+                points="38.39 21.16 38.39 25.5 40.36 27.48 40.36 18.36 42.69 20.48 42.69 20.69 42.69 22.18 51.62 31.78 38.52 31.87 26.42 21.21 38.39 21.16" />
+            <polygon class="svg_w" points="27.77 23.47 29.72 25.34 9.81 43.06 27.77 23.47" />
+        </g>
+    </g>
+</svg>
