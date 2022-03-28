@@ -17,7 +17,8 @@ body {
   font-family: 'BankGothic';
   font-style: normal;
   font-weight: normal;
-  src: local('BankGothic'), url('/fonts/bankGothic/BankGothic.woff') format('woff');
+  src: local('BankGothic'), url('/fonts/bankGothic/BankGothic.woff') format('woff'),
+  local('BankGothic'), url('/fonts/bankGothic/BankGothic.woff2') format('woff2');
 }
 
 @font-face {
@@ -106,6 +107,82 @@ body {
     transition: color 0.2s ease-in;
   /* border-bottom: dashed #1D1A55 1px; */
 }
+
+
+ul.dropdown_side{ 
+  position: relative; 
+  width: 100%; 
+}
+
+ul.dropdown_side li{ 
+  font-weight: bold; 
+  width: 180px; 
+  position: relative;
+}
+
+ul.dropdown_side a:hover{ 
+  color: #000; 
+}
+
+ul.dropdown_side li a { 
+  display: block; 
+  /* padding: 20px 8px; */
+  color: #eee; 
+  position: relative; 
+  z-index: 2000; 
+  text-align: center;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+ul.dropdown_side li a:hover,
+ul.dropdown_side li a.hover{ 
+  position: relative;
+  color: #7e7e7e;
+}
+
+
+ul.dropdown_side ul{ 
+ display: none;
+  width: 180px; 
+  z-index: 1000;
+}
+
+ul.dropdown_side ul li { 
+  font-weight: normal; 
+  /* background: #f6f6f6;  */
+  color: #000; 
+  /* border-bottom: 1px solid #ccc;  */
+}
+
+ul.dropdown_side ul li a{ 
+  display: block; 
+  color: #eee !important;
+  /* background: #eee !important; */
+} 
+
+ul.dropdown_side ul li a:hover{
+  display: block; 
+  color: #7e7e7e !important;
+} 
+
+.drop{
+  height: fit-content !important;
+}
+
+.drop > a{
+  position: relative;
+}
+
+.drop > a:after{
+  content:"";
+  position: absolute;
+  z-index: 999;
+}
+
+/* .drop > a:hover:after{
+  content:"";
+} */
 
 /* Navbar menu */
 /* navbar hamburger */
