@@ -49,6 +49,7 @@ ScrollTrigger.defaults({
       end: "+="+height+"%",
       scrub: true,
       id: "points",
+      
     }
   })
   
@@ -58,8 +59,9 @@ ScrollTrigger.defaults({
       start: "top top",
       end: "+="+height+"%",
       scrub: true,
-      pin: ".philosophie .wrapper",
-      pinSpacing: true,
+      pin: "points",
+      pin: ".philosophie .wrapper ",
+      // pinSpacing: true,
       id: "pinning",
       
     //   markers: true
