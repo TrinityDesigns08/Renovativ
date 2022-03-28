@@ -71,44 +71,79 @@ $('.tab.menu-tab').click(function(){ return false; });
     });
 });
 
-// gsap.registerPlugin(SrollTriger);
 
-let tl = gsap.timeline(
-  {
-    // yes, we can add it to an entire timeline!
-    scrollTrigger: {
-      trigger: ".team_div_2",
-      // pin: true,   // pin the trigger element while active
-      start: "top bottom", // when the top of the trigger hits the top of the viewport
-      end: "300", // end after scrolling 500px beyond the start
-      scrub: 1,
-      duration: {min: 0.2, max: 3}, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-      // snap: {
-      //   snapTo: "labels", // snap to the closest label in the timeline
-      //   duration: {min: 0.2, max: 3}, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
-      //   delay: 0.2, // wait 0.2 seconds from the last scroll event before doing the snapping
-      //   ease: "power1.inOut" // the ease of the snap animation ("power3" by default)
-      // }
+$(document).ready(function(){
+  function adjustNav() {
+    var winWidth = $(window).width(),
+      dropdown = $('.dropdown'),
+      dropdownMenu = $('.dropdown-menu');
+    
+    if (winWidth >= 768) {
+      dropdown.on('mouseenter', function() {
+        $(this).addClass('show')
+          .children(dropdownMenu).addClass('show');
+      });
+      
+      dropdown.on('mouseleave', function() {
+        $(this).removeClass('show')
+          .children(dropdownMenu).removeClass('show');
+      });
+    } else {
+      dropdown.off('mouseenter mouseleave');
     }
   }
-);
-
-tl
-.from(".vativ_l_1", {y:300, duration:2})
-.addLabel("end")
-.from("team_footer", {y:-300, duration:2})
-// .from(".team_footer", {y:-200, duration:3})
+  
+  $(window).on('resize', adjustNav);
+  
+  adjustNav();
+  });
 
 
-// .to(".vativ_l_1", {y:, duration:1})
 
-// $(document).ready(function() {
 
-//   $(".twd_item a").mouseover(function () {
-//       $(".twd_item a img").css("display", "none"); // hide all product images
-//       $(this).find("img").css("display", "inline-block").css("visibility", "visible"); // show current hover image
-//   })
-//   $(".twd_item a").mouseout(function () {
-//       $(".twd_item a img").css("display", "none"); // hide all product images
-//   })
-// });
+
+
+// gsap.registerPlugin(SrollTriger);
+
+$(document).ready(function(){
+  let tl = gsap.timeline(
+    {
+      // yes, we can add it to an entire timeline!
+      scrollTrigger: {
+        trigger: ".team_div_2",
+        // pin: true,   // pin the trigger element while active
+        start: "top bottom", // when the top of the trigger hits the top of the viewport
+        end: "300", // end after scrolling 500px beyond the start
+        scrub: 1,
+        duration: {min: 0.2, max: 3}, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+        // snap: {
+        //   snapTo: "labels", // snap to the closest label in the timeline
+        //   duration: {min: 0.2, max: 3}, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
+        //   delay: 0.2, // wait 0.2 seconds from the last scroll event before doing the snapping
+        //   ease: "power1.inOut" // the ease of the snap animation ("power3" by default)
+        // }
+      }
+    }
+  );
+  
+  tl
+  .from(".vativ_l_1", {y:300, duration:2})
+  .addLabel("end")
+  .from("team_footer", {y:-300, duration:2})
+  // .from(".team_footer", {y:-200, duration:3})
+  
+  
+  // .to(".vativ_l_1", {y:, duration:1})
+  
+  // $(document).ready(function() {
+  
+  //   $(".twd_item a").mouseover(function () {
+  //       $(".twd_item a img").css("display", "none"); // hide all product images
+  //       $(this).find("img").css("display", "inline-block").css("visibility", "visible"); // show current hover image
+  //   })
+  //   $(".twd_item a").mouseout(function () {
+  //       $(".twd_item a img").css("display", "none"); // hide all product images
+  //   })
+  // });
+})
+

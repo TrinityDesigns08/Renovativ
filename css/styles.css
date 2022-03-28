@@ -79,6 +79,7 @@ body {
     color: #eee !important;
   /* border-bottom: dashed #1D1A55 1px; */
   transition: border-bottom .1s;
+  transition: color 0.2s ease-in;
 }
 
 .nav_svg {
@@ -91,11 +92,19 @@ body {
   height: 60px;
 }
 
+.navbar .dropdown-menu .dropdown-item {
+  position: relative;
+  padding: 10px 20px;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+  transition: color 0.2s ease-in;
+}
+
 .dropdown-item:hover {
   background: #1D1A55;
     color: #eee !important;
+    transition: color 0.2s ease-in;
   /* border-bottom: dashed #1D1A55 1px; */
-  transition: border-bottom .1s;
 }
 
 /* Navbar menu */
@@ -118,7 +127,7 @@ body {
   .abs-center li{
     border-radius: 15px;
     background-color: #1D1A55;
-    font-size: 23px;
+    font-size: 20px;
     color: #eee;
   }
 
