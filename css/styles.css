@@ -1107,8 +1107,14 @@ display: block;
 }
 
 .point img {
+  width: 100%;
   flex-basis: 60%;
-  max-width: 60vw;
+  /* max-width: 400px; */
+  height: auto;
+}
+.point_img {
+  flex-basis: 60%;
+  max-width: 700px;
   height: auto;
 }
 
@@ -1133,6 +1139,10 @@ display: block;
     height: 0;
   }
   .point article {
+    overflow-x: scroll;
+    height: fit-content;
+    font-size: 3vw;
+    /* max-height: 20vh; */
     padding: 7px;
     border-radius: 15px;
     background-color: #1D1A55;
@@ -1146,14 +1156,28 @@ display: block;
   }
   .point img {
     border-radius: 15px;
-    top: 140px;
+    top: 6vh;
     position: relative;
-    bottom: 10%;
+    /* bottom: 10%; */
     /* min-width: 700px; */
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     width: 93vw;
     max-width: 100vw;
     height: auto;
+  }
+
+  .point_img{
+    border-radius: 15px;
+    top: 140px;
+    position: relative;
+    /* bottom: 10%; */
+    /* min-width: 700px; */
+    flex-basis: 100%;
+    /* width: 93vw; */
+    max-width: 100vw;
+    /* height: auto; */
+    height: 60vh;
+    overflow-x: hidden;
   }
 }
 
