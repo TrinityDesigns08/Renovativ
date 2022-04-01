@@ -1,6 +1,7 @@
 body {
   background-color: #eee;
-  width: 100VW;
+  width: 99vw;
+  overflow-x: hidden;
   font-family: Eurostile;
   height: fit-content;
   flex-direction: column;
@@ -36,6 +37,8 @@ body {
   padding: 0;
  
 }
+
+
 
 /* Navbar */
 
